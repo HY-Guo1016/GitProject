@@ -22,5 +22,5 @@ git pull 远程仓库地址别名 远程分支名                               
 
 
 多文件夹操作
-mkdir folder1/folder2/folder3                                 可以创建一个名为`folder3`的多级文件夹。
-git add folder1/folder2/folder3/file.txt                   命令将名为`file.txt`的文件添加到Git仓库
+mkdir folder1/folder2/folder3                                              可以创建一个名为`folder3`的多级文件夹。
+git add folder1/folder2/folder3/file.txt                                   命令将名为`file.txt`的文件添加到Git仓库
