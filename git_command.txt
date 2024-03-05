@@ -4,3 +4,4 @@ git init                                                                        
 git status                                                                                   查看当前缓存区状态
 git add filename                                                                       添加到缓存区
 git commit -m"version" filename                                          添加到本地库
+git reflog                                                                                   查看版本
