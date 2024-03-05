@@ -1,2 +1,6 @@
 git config --global user.name 用户名                                    设置用户签名
 git config --global user.email 邮箱                                        设置用户签名邮箱
+git init                                                                                        初始化本地库
+git status                                                                                   查看当前缓存区状态
+git add filename                                                                       添加到缓存区
+git commit -m"version" filename                                          添加到本地库
