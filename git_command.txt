@@ -1,14 +1,21 @@
-git config --global user.name 用户名                                    设置用户签名
+git config --global user.name 用户名                                       设置用户签名
 git config --global user.email 邮箱                                        设置用户签名邮箱
-git init                                                                                        初始化本地库
-git status                                                                                   查看当前缓存区状态
-git add filename                                                                       添加到缓存区
-git commit -m"version" filename                                          添加到本地库
-git reflog                                                                                   查看版本
-git reset --hard version                                                           版本回溯
+git init                                                                   初始化本地库
+git status                                                                 查看当前缓存区状态
+git add filename                                                           添加到缓存区
+git commit -m"version" filename                                            添加到本地库
+git reflog                                                                 查看版本
+git reset --hard version                                                   版本回溯
 
 分支的操作
-git branch branchname                                                           创建分支
-git branch -v                                                                              查看分支
-git branch branchname                                                           切换分支      master test
-git merge branchname                                                            把指定的分支合并到当前分支上面    hot-fix test
+git branch branchname                                                      创建分支
+git branch -v                                                              查看分支
+git branch branchname                                                      切换分支      master test
+git merge branchname                                                       把指定的分支合并到当前分支上面    hot-fix test
+
+远程操作
+git remote -v                                                              查看当前远程地址的别名
+git remote add 别名 远程地址                                               起别名
+git push 别名 分支                                                         推送本地分支上面的内容到远程仓库
+git clone 远程地址                                                         将远程仓库的内容克隆到本地
+git pull 远程仓库地址别名 远程分支名                                        将远程仓库对于分支的最新内容拉下来然后与当前本地分支直接合并
